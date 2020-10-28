@@ -8,20 +8,20 @@ fun main() {
 
     //1.1.а
     fun task__1_1_a(z: Double): Double {
-        val mod = java.lang.Math.abs(2 * z)
-        val lg = kotlin.math.ln(mod)
+        val mod = Math.abs(2 * z)
+        val lg = ln(mod)
 
-        val pow1 = java.lang.Math.pow(z, 2.0)
-        val arc = java.lang.Math.atan(pow1 * 2)
+        val pow1 = pow(z, 2.0)
+        val arc = Math.atan(pow1 * 2)
 
         val top = lg + arc
 
 
         val sum = z + 1
-        val pow2 = java.lang.Math.pow(sum, 2.0)
+        val pow2 = pow(sum, 2.0)
         val mul = 3 * pow2
 
-        val pow3 = java.lang.Math.pow(10.0, 6.0)
+        val pow3 = pow(10.0, 6.0)
         val mul2 = 2.1 * pow3
 
         val bot = mul + mul2
